@@ -764,7 +764,8 @@ EXP octave_value_list octFunction(const octave_value_list& prhs, const int nlhs)
 		// a module into a struct array of text strings. Needed by our automatic documentation
 		// generator script to find out about subfunctions of a module:
 		PsychRegister((char*) "DescribeModuleFunctionsHelper",  &PsychDescribeModuleFunctions);
-
+    // TODO: remove prints
+    // printf("\n\n>>>>>>>>>>>>>>>> TESTING COMPILE  CHANGES <<<<<<<<<<<<<<<<<<<<<<<<<\n\n");
 		firstTime = FALSE;
 	}
 	
